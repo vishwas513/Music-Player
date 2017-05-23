@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E96635AE1ED2787100E1F028 /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E96635AD1ED2787100E1F028 /* sheep.mp3 */; };
 		E9D8BAB81ED26AEC0084F86B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D8BAB71ED26AEC0084F86B /* AppDelegate.swift */; };
 		E9D8BABA1ED26AEC0084F86B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D8BAB91ED26AEC0084F86B /* ViewController.swift */; };
 		E9D8BABD1ED26AEC0084F86B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D8BABB1ED26AEC0084F86B /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E96635AC1ED273A900E1F028 /* sheep.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = sheep.aac; sourceTree = "<group>"; };
+		E96635AD1ED2787100E1F028 /* sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep.mp3; sourceTree = "<group>"; };
 		E9D8BAB41ED26AEC0084F86B /* Bach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D8BAB71ED26AEC0084F86B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D8BAB91ED26AEC0084F86B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				E9D8BAB91ED26AEC0084F86B /* ViewController.swift */,
 				E9D8BABB1ED26AEC0084F86B /* Main.storyboard */,
 				E9D8BAC11ED26AEC0084F86B /* Assets.xcassets */,
+				E96635AC1ED273A900E1F028 /* sheep.aac */,
+				E96635AD1ED2787100E1F028 /* sheep.mp3 */,
 				E9D8BAC31ED26AEC0084F86B /* LaunchScreen.storyboard */,
 				E9D8BAC61ED26AEC0084F86B /* Info.plist */,
 				E9D8BABE1ED26AEC0084F86B /* Bach.xcdatamodeld */,
@@ -235,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96635AE1ED2787100E1F028 /* sheep.mp3 in Resources */,
 				E9D8BAC51ED26AEC0084F86B /* LaunchScreen.storyboard in Resources */,
 				E9D8BAC21ED26AEC0084F86B /* Assets.xcassets in Resources */,
 				E9D8BABD1ED26AEC0084F86B /* Main.storyboard in Resources */,
@@ -511,6 +517,7 @@
 				E9D8BAE11ED26AEC0084F86B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D8BAE21ED26AEC0084F86B /* Build configuration list for PBXNativeTarget "BachTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +526,7 @@
 				E9D8BAE41ED26AEC0084F86B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D8BAE51ED26AEC0084F86B /* Build configuration list for PBXNativeTarget "BachUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +535,7 @@
 				E9D8BAE71ED26AEC0084F86B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
